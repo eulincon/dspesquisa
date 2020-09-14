@@ -45,11 +45,11 @@ public class Game implements Serializable {
 		this.genre = genre;
 	}
 
-	public Long getIdLong() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setIdLong(Long idLong) {
+	public void setId(Long idLong) {
 		this.id = idLong;
 	}
 

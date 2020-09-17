@@ -5,17 +5,19 @@ import Home from './pages/Home';
 import Records from './pages/Records';
 
 const Routes = () => {
-    <BrowserRouter>
-        <Header />
-        <Switch>
-        </Switch>
-            <Route path="/">
-                <Home />
-            </Route>
-            <Route path="/records">
-                <Records />
-            </Route>
-    </BrowserRouter>
+    return (
+        <BrowserRouter>
+            <Header />
+            <Switch>y
+            </Switch>
+                <Route path="/" exact>
+                    <Home />
+                </Route>
+                <Route path="/records">
+                    <Records />
+                </Route>
+        </BrowserRouter>
+    )
 };
 
 export default Routes;

@@ -43,7 +43,7 @@ const CreateRecord = () => {
     const handleSubmit = () => {
         const payload = { name, age, gameId: selectedGame };
 
-        Axios.post(`${BASE_URL}/records`)
+        Axios.post(`${BASE_URL}/records`, payload)
             .then(() => {
                 Alert.alert('Dados salvos com sucesso!');
                 setName('');

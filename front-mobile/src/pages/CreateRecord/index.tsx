@@ -13,7 +13,7 @@ const placeholder = {
     value: null
 }
 
-const BASE_URL = '192.168.31.191:19000';
+const BASE_URL = 'http://dspesquisa-api.herokuapp.com';
 
 const mapSelectValues = (games: Game[]) => {
     return games.map(game => ({
@@ -114,6 +114,7 @@ const CreateRecord = () => {
                     value={selectedGame}
                     items={filteredGames}
                     style={pickerSelectStyles}
+                    useNativeAndroidPickerStyle={false}
                     Icon={() => {
                         return <Icon name="chevron-down" color="#9E9E9E" size={25}/>
                     }}

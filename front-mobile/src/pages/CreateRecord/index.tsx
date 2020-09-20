@@ -13,7 +13,7 @@ const placeholder = {
     value: null
 }
 
-const BASE_URL = 'http://dspesquisa-api.herokuapp.com';
+const BASE_URL = 'https://dspesquisa-api.herokuapp.com';
 
 const mapSelectValues = (games: Game[]) => {
     return games.map(game => ({

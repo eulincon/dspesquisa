@@ -21,7 +21,7 @@ const initialPieData = {
     series: []
 };
 
-const BASE_URL = 'http://dspesquisa-api.herokuapp.com';
+const BASE_URL = 'https://dspesquisa-api.herokuapp.com';
 
 const Charts = () => {
 

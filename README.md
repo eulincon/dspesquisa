@@ -8,6 +8,7 @@ https://lnkd.in/eYK2VMP
 
 #Link para o app mobile
 https://lnkd.in/ev3umKX
+
 O apk pode ser acessado pelo próprio app do Expo - pode ser baixado na app store - apenas copiando o QR Code que aparece no link acima. 
 A build do apk do próprio projeto foi construído mas por motivo de o sistema android estar apontando como um app inseguro devido a falta de certos dados, não disponibilizarei o link para o apk próprio. Desta forma, aconselho baixar o app da Expo na playstore ou loja do IOS e ler o QR Code disponibilizado no link acima.
 
